@@ -1,4 +1,4 @@
-package fullcycle.com.br.model.domain.service;
+package fullcycle.com.br.model.service;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

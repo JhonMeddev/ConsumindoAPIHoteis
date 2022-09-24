@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import fullcycle.com.br.model.domain.PayLoad;
-import fullcycle.com.br.model.domain.service.HotelService;
+import fullcycle.com.br.model.service.HotelService;
 
 @RestController
 public class HotelController {

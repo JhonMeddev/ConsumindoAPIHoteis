@@ -12,7 +12,7 @@
 	<artifactId>ConsumoAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ConsumoAPI</name>
-	<description>Teste consumo api</description>
+	<description>Hands On consumo api</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
@@ -32,6 +32,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+<groupId>org.springdoc</groupId>
+<artifactId>springdoc-openapi-ui</artifactId>
+<version>1.5.13</version>
+</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
