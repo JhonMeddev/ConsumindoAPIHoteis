@@ -18,9 +18,8 @@ public class Hotel {
 	
 
 	private List<Room> rooms;
-
 	
-
+	
 	public int getId() {
 		return id;
 	}
