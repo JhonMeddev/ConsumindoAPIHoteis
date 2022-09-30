@@ -2,8 +2,6 @@ package fullcycle.com.br.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -15,6 +13,7 @@ public class HotelServiceTest {
 	
 	
 	HotelService hotelService = new HotelService();
+	
 
 	@Test
 	@Order(1)
